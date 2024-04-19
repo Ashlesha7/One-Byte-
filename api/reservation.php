@@ -9,7 +9,10 @@
 	if($_SERVER['REQUEST_METHOD'] == 'POST') {
 		
 		if(isset($_POST['submit'])) {
+<<<<<<< HEAD
 			// ashlesha
+=======
+>>>>>>> cd18a9ed672167a6fde5567baf58e2c38f60f996
 			
 			$guest = preg_replace("#[^0-9]#", "", $_POST['guest']);
 			$email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
